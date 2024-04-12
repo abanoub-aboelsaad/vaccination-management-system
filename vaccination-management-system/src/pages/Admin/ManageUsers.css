@@ -1,8 +1,49 @@
-.aba {
-  font-family: Poppins;
-  background-size: 100vw;
-  background-color: white;
-  margin: 0px;
-  padding: none;
-  color: black;
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.25;
+}
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}
+table tr {
+  border: 1px solid #ddd;
+  padding: .35em;
+}
+table tr:nth-child(even) {
+  background: #f8f8f8;  
+}
+table th,
+table td {
+  padding: .625em;
+  text-align: left;
+}
+table thead th {
+  background: #5fb8fd;
+  color: #fff;
+  font-size: .85em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+table td {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* button{
+background-color:blue;
+border-radius: 1px;
+margin-left: 0px;
+
+} */
+
+button {
+  margin-left: 0px;
+  padding: 8px 10px; /* Padding around text */
+  background-color: rgba(11, 121, 230, 0.767); 
+  color: black; 
+  
+
 }
